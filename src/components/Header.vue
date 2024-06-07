@@ -4,7 +4,7 @@ import Button from "../components/generics/Button.vue";
 
 <template>
   <div class="w-full py-16 relative">
-    <svg width="1161" height="839" viewBox="0 0 1161 839" fill="none" xmlns="http://www.w3.org/2000/svg" class="absolute -top-20">
+    <svg width="1161" height="839" viewBox="0 0 1161 839" fill="none" xmlns="http://www.w3.org/2000/svg" class="absolute -top-20 w-full">
       <g filter="url(#filter0_f_4_191)">
         <ellipse
           cx="308.564"
@@ -32,7 +32,7 @@ import Button from "../components/generics/Button.vue";
     </svg>
     <div class="container mx-auto py-16 text-center relative">
       <div class="">
-        <a href="tel:+998903380860" class="inline-flex border rounded-3xl gap-1 items-center py-2 px-4">
+        <a href="tel:+998903380860" class="inline-flex border rounded-3xl gap-1 items-center py-2 px-4 animate__animated animate__slideInDown">
           Hoziroq bog’laning:
           <span class="text-linear">+998 (90) 338-08-60 </span>
           <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -40,20 +40,20 @@ import Button from "../components/generics/Button.vue";
           </svg>
         </a>
 
-        <div class="mt-9 flex flex-col items-center">
-          <div class="card-shadow-sm p-2.5">
+        <div class="mt-9 flex flex-col items-center animate__animated animate__slideInUp">
+          <div class="card-shadow-sm p-2.5 ">
             <img src="../assets/icon/logo-dark-icon.svg" alt="" />
           </div>
           <span class="uppercase mt-2">Blaze</span>
         </div>
         <div class="flex flex-col items-center gap-2 mt-9 mb-16 justify-center max-w-screen-md mx-auto">
-          <h2 class="text-5xl font-bold leading-[58.09px]">Biznesingizda samarali boshqaruvga kafolat beramiz!</h2>
-          <p class="mt-9 leading-[26.63px]">
+          <h2 class="text-5xl font-bold leading-[58.09px] animate__animated animate__slideInUp">Biznesingizda samarali boshqaruvga kafolat beramiz!</h2>
+          <p class="mt-9 leading-[26.63px] animate__animated animate__slideInUp">
             Delightful observability tools that turn your logs & monitoring into a secret weapon for shipping better software faster.
           </p>
-          <Button class="bg-primary mt-16 py-3 px-6 text-sm font-normal flex items-center gap-2"
+          <Button class="group bg-primary hover:opacity-80 transition-all animate__animated animate__slideInUp duration-200 mt-16 py-3 px-6 text-sm font-normal flex items-center gap-2"
             >Bepul sinab ko'rish
-            <svg width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <svg width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg" class="transition-all duration-150 group-hover:translate-x-1">
               <path
                 d="M2.66669 8.5H13.3334M13.3334 8.5L9.33335 4.5M13.3334 8.5L9.33335 12.5"
                 stroke="white"
@@ -63,7 +63,7 @@ import Button from "../components/generics/Button.vue";
             </svg>
           </Button>
         </div>
-        <div class="container mx-auto mb-32 px-40">
+        <div class="container mx-auto mb-32 px-40 animate__animated animate__slideInUp">
           <img src="../assets/img/header.png" alt="" class="mx-auto w-full" />
         </div>
       </div>
