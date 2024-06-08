@@ -1,7 +1,7 @@
 <script setup></script>
 <template>
   <footer class="text-gray-600 body-font bg-slate-100">
-    <div class="container px-40 py-8 mx-auto flex items-center sm:flex-row flex-col">
+    <div class="container lg:px-40 px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
       <a class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
         <img src="../assets/icon/logo.svg" alt="">
       </a>

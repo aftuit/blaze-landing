@@ -3,7 +3,7 @@ import Button from "../components/generics/Button.vue";
 </script>
 
 <template>
-  <div class="w-full py-16 relative">
+  <div class="w-full lg:py-16 py-6 relative">
     <svg width="1161" height="839" viewBox="0 0 1161 839" fill="none" xmlns="http://www.w3.org/2000/svg" class="absolute -top-20 w-full">
       <g filter="url(#filter0_f_4_191)">
         <ellipse
@@ -30,14 +30,15 @@ import Button from "../components/generics/Button.vue";
         </filter>
       </defs>
     </svg>
-    <div class="container mx-auto py-16 text-center relative">
+    <div class="container mx-auto lg:py-16 py-8 text-center relative lg:px-0 px-5">
       <div class="">
-        <a href="tel:+998903380860" class="inline-flex border rounded-3xl gap-1 items-center py-2 px-4 animate__animated animate__slideInDown">
+        <a href="tel:+998903380860" class="inline-flex md:text-base text-xs border rounded-3xl gap-1 items-center py-2 px-4 animate__animated animate__slideInDown">
           Hoziroq bog’laning:
-          <span class="text-linear">+998 (90) 338-08-60 </span>
-          <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M2 6H10M10 6L7 3M10 6L7 9" stroke="#FF016C" stroke-linecap="round" stroke-linejoin="round" />
-          </svg>
+          <span class="text-linear flex items-center gap-1 md:text-base text-xs">+998 (90) 338-08-60 
+            <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M2 6H10M10 6L7 3M10 6L7 9" stroke="#FF016C" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+          </span>
         </a>
 
         <div class="mt-9 flex flex-col items-center animate__animated animate__slideInUp">
@@ -47,11 +48,11 @@ import Button from "../components/generics/Button.vue";
           <span class="uppercase mt-2">Blaze</span>
         </div>
         <div class="flex flex-col items-center gap-2 mt-9 mb-16 justify-center max-w-screen-md mx-auto">
-          <h2 class="text-5xl font-bold leading-[58.09px] animate__animated animate__slideInUp">Biznesingizda samarali boshqaruvga kafolat beramiz!</h2>
-          <p class="mt-9 leading-[26.63px] animate__animated animate__slideInUp">
+          <h2 class="lg:text-5xl text-3xl font-bold lg:leading-[58.09px] leading-[30px] animate__animated animate__slideInUp">Biznesingizda samarali boshqaruvga kafolat beramiz!</h2>
+          <p class="md:mt-9 mt-5 leading-[26.63px] animate__animated animate__slideInUp">
             Delightful observability tools that turn your logs & monitoring into a secret weapon for shipping better software faster.
           </p>
-          <Button class="group bg-primary hover:opacity-80 transition-all animate__animated animate__slideInUp duration-200 mt-16 py-3 px-6 text-sm font-normal flex items-center gap-2"
+          <Button class="group bg-primary hover:opacity-80 transition-all animate__animated animate__slideInUp duration-200 md:mt-16 mt-10 py-3 px-6 text-sm font-normal flex items-center gap-2"
             >Bepul sinab ko'rish
             <svg width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg" class="transition-all duration-150 group-hover:translate-x-1">
               <path
@@ -63,7 +64,7 @@ import Button from "../components/generics/Button.vue";
             </svg>
           </Button>
         </div>
-        <div class="container mx-auto mb-32 px-40 animate__animated animate__slideInUp">
+        <div class="container mx-auto lg:mb-32 mb-14 lg:px-40 animate__animated animate__slideInUp">
           <img src="../assets/img/header.png" alt="" class="mx-auto w-full" />
         </div>
       </div>

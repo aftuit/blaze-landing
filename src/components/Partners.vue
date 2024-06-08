@@ -1,9 +1,14 @@
 <template>
   <div class="max-w-screen-md mx-auto">
-    <h3 class="text-center text-dark text-base font-semibold leading-[19.36px] animate__animated animate__slideInDown">LOVED BY TEAMS AROUND THE WORLD</h3>
-    <p class="text-center mt-4 text-sm text-gray font-normal leading-[15.73px] animate__animated animate__slideInDown">
-      Background component prototype pixel <br />
-      align polygon
+    <h3
+      class="text-center text-dark text-base font-semibold leading-[19.36px] animate__animated animate__slideInDown"
+    >
+      LOVED BY TEAMS AROUND THE WORLD
+    </h3>
+    <p
+      class="text-center mt-4 text-sm text-gray font-normal leading-[15.73px] animate__animated animate__slideInDown"
+    >
+      Background component prototype pixel align polygon
     </p>
 
     <div class="mt-[60px] flex justify-between gap-20">
