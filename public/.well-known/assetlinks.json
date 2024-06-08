@@ -1,0 +1,14 @@
+[
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "uz.blaze.lms",
+      "sha256_cert_fingerprints": [
+        "56:F0:59:45:70:5E:5E:35:D2:90:05:8F:AC:6E:18:DC:33:14:D9:88:CF:0B:AB:50:19:3F:BF:76:A5:85:0C:80"
+      ]
+    }
+  }
+]
