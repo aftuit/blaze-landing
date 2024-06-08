@@ -48,7 +48,7 @@ import Button from "../components/generics/Button.vue";
           <span class="uppercase mt-2">Blaze</span>
         </div>
         <div class="flex flex-col items-center gap-2 mt-9 mb-16 justify-center max-w-screen-md mx-auto">
-          <h2 class="lg:text-5xl text-3xl font-bold lg:leading-[58.09px] leading-[30px] animate__animated animate__slideInUp">Biznesingizda samarali boshqaruvga kafolat beramiz!</h2>
+          <h2 class="lg:text-5xl text-3xl font-bold lg:leading-[58.09px] leading-[40px] animate__animated animate__slideInUp">Biznesingizda samarali boshqaruvga kafolat beramiz!</h2>
           <p class="md:mt-9 mt-5 leading-[26.63px] animate__animated animate__slideInUp">
             Delightful observability tools that turn your logs & monitoring into a secret weapon for shipping better software faster.
           </p>

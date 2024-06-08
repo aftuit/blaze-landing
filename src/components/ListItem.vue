@@ -4,6 +4,10 @@ const props = defineProps({
     type: Boolean,
     default: false,
   },
+  img: {
+    type: String,
+    default: "",
+  },
 });
 </script>
 
@@ -25,7 +29,7 @@ const props = defineProps({
       class="card-shadow rounded-3xl bg-slate-200 lg:w-[474px] h-[474px] w-full overflow-hidden"
     >
       <img
-        src="https://cdn.dribbble.com/userupload/2993288/file/original-e0c3969a43acb896ba1435590b36824b.png?resize=1024x768&vertical=center"
+        :src="img"
         alt=""
         class="w-full h-full object-cover"
       />

@@ -1,5 +1,37 @@
 <script setup>
 import ListItem from "./ListItem.vue";
+
+import kinder1 from "../assets/img/kinder-1.png";
+import kinder2 from "../assets/img/kinder-2.png";
+import dental1 from "../assets/img/dental-1.png";
+import dental2 from "../assets/img/dental-2.png";
+import kinder3 from "../assets/img/kinder-3.png";
+
+import { computed } from "vue";
+const items = computed(() => {
+  return {
+    first: {
+      title: "",
+      description: "",
+      image: kinder1,
+    },
+    second: {
+      title: "",
+      description: "",
+      image: kinder2,
+    },
+    third: {
+      title: "",
+      description: "",
+      image: dental1,
+    },
+    fourth: {
+      title: "",
+      description: "",
+      image: dental2,
+    },
+  };
+});
 </script>
 
 <template>
@@ -18,19 +50,21 @@ import ListItem from "./ListItem.vue";
     <div
       class="list-wrapper w-full flex flex-col items-center justify-center lg:px-0 px-5"
     >
-      <ListItem />
-      <ListItem :opposite="true" />
+      <ListItem :img="items.first.image" />
+      <ListItem :opposite="true" :img="items.second.image" />
     </div>
     <div class="w-full md:mt-32 mt-14 lg:px-0 px-5">
       <img
-        src="https://cdn.dribbble.com/userupload/3349890/file/original-54964eaa6cba4961bb0493df2f5e1249.png?resize=1024x768"
+        :src="kinder3"
         alt=""
         class="mx-auto"
       />
     </div>
-    <div class="list-wrapper w-full flex flex-col items-center justify-center lg:px-0 px-5">
-      <ListItem />
-      <ListItem :opposite="true" />
+    <div
+      class="list-wrapper w-full flex flex-col items-center justify-center lg:px-0 px-5"
+    >
+      <ListItem :img="items.third.image" />
+      <ListItem :opposite="true" :img="items.fourth.image" />
     </div>
   </div>
 </template>
