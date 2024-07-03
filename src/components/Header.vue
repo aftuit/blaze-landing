@@ -32,9 +32,9 @@ import Button from "../components/generics/Button.vue";
     </svg>
     <div class="container mx-auto lg:py-16 py-8 text-center relative lg:px-0 px-5">
       <div class="">
-        <a href="tel:+998903380860" class="inline-flex md:text-base text-xs border rounded-3xl gap-1 items-center py-2 px-4 animate__animated animate__slideInDown">
+        <a href="tel:+998908212776" class="inline-flex md:text-base text-xs border rounded-3xl gap-1 items-center py-2 px-4 animate__animated animate__slideInDown">
           Hoziroq bog’laning:
-          <span class="text-linear flex items-center gap-1 md:text-base text-xs">+998 (90) 338-08-60 
+          <span class="text-linear flex items-center gap-1 md:text-base text-xs">+998 (90) 821-27-76
             <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path d="M2 6H10M10 6L7 3M10 6L7 9" stroke="#FF016C" stroke-linecap="round" stroke-linejoin="round" />
             </svg>
